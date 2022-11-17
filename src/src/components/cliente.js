@@ -38,7 +38,7 @@ export function Cliente (propiedades) {
     }
 
     let cerrarSesion = () => {
-        window.location.href="http://localhost:3000/home"
+        window.location.href="/home"
     }
     
     return(
