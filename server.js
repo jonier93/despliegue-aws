@@ -9,9 +9,7 @@ app.use(ex.json())
 app.use(ex.static("src/build"))
 app.use(router)
 
-app.use(function(req, res) {
-    res.redirect('/')
-});
+
 
 const port = process.env.PORT || 5000
 
